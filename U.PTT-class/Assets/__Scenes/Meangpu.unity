@@ -546,6 +546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e3b0ea20ccb2ad4288befee62474f0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _startPlayName: meangpu
 --- !u!1 &769630032
 GameObject:
   m_ObjectHideFlags: 0

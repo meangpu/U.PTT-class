@@ -3,7 +3,7 @@ using UnityEngine;
 public class AudioCall : MonoBehaviour
 {
     AudioManager _aud;
-    string _startPlayName;
+    [SerializeField] string _startPlayName;
 
 
     private void Start()
