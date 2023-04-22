@@ -45,10 +45,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - audioName: boss
-    clip: {fileID: 0}
-    mixerGroup: {fileID: 0}
+    clip: {fileID: 8300000, guid: e0d505a6dd60a446db580e3c7eeac58e, type: 3}
+    mixerGroup: {fileID: 24300002, guid: 86e223cb202e7de4ea6f37fbd34b4af7, type: 2}
     volumn: 1
-    pitch: 0
+    pitch: 1
     blend: 0
     loop: 1
     source: {fileID: 0}
@@ -56,15 +56,15 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: b09d94a8140df0e4e986f8918546b8c8, type: 3}
     mixerGroup: {fileID: 0}
     volumn: 1
-    pitch: 0
+    pitch: 1
     blend: 0
     loop: 1
     source: {fileID: 0}
   - audioName: meangpu
-    clip: {fileID: 0}
-    mixerGroup: {fileID: 0}
+    clip: {fileID: 8300000, guid: ef7c0328a31d822489b504235f229a7f, type: 3}
+    mixerGroup: {fileID: 24300002, guid: 86e223cb202e7de4ea6f37fbd34b4af7, type: 2}
     volumn: 1
-    pitch: 0
+    pitch: 1
     blend: 0
     loop: 1
     source: {fileID: 0}
