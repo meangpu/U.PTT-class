@@ -11,17 +11,11 @@ public class AudioCall : MonoBehaviour
         StopAndPlay();
     }
 
-    void Awake()
-    {
-        StopAndPlay();
-    }
-
     void StopAndPlay()
     {
         _aud = FindObjectOfType<AudioManager>();
         _aud.stopAll();
-        _aud.Play(_startPlayName);
-
+        _aud.PlayOne(_startPlayName);
     }
 
 

@@ -12,7 +12,7 @@ public class AudioManager : MonoBehaviour
     public Sound[] sounds;
     public static AudioManager instance;
 
-    private void Awake() 
+    private void Awake()
     {
         if (instance == null)
         {
@@ -25,7 +25,7 @@ public class AudioManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-        foreach(Sound s in sounds)
+        foreach (Sound s in sounds)
         {
             s.source = gameObject.AddComponent<AudioSource>();
             s.source.clip = s.clip;
@@ -40,7 +40,7 @@ public class AudioManager : MonoBehaviour
     public void Play(string name)
     {
         Sound s = Array.Find(sounds, sound => sound.audioName == name);
-        if(s==null || s.source == null)
+        if (s == null || s.source == null)
         {
             Debug.Log("ERROR");
             return;
@@ -49,36 +49,36 @@ public class AudioManager : MonoBehaviour
     }
 
 
-    public void PlayOne(string name, float vol)
+    public void PlayOne(string name)
     {
         Sound s = Array.Find(sounds, sound => sound.audioName == name);
-        if(s==null || s.source == null)
+        if (s == null || s.source == null)
         {
             Debug.Log("ERROR");
             return;
         }
-        s.source.PlayOneShot(s.clip, vol);
+        s.source.PlayOneShot(s.clip, s.volumn);
     }
 
-    public void PlayAddPitch(string name, float addingValue, bool doPlay=true)
+    public void PlayAddPitch(string name, float addingValue, bool doPlay = true)
     {
         Sound s = Array.Find(sounds, sound => sound.audioName == name);
-        if(s==null || s.source == null)
+        if (s == null || s.source == null)
         {
             Debug.Log("ERROR");
             return;
         }
         s.pitch += addingValue;
         s.source.pitch = s.pitch;
-        if(doPlay)
+        if (doPlay)
         {
             s.source.Play();
-        }   
+        }
     }
 
     public void stopAll()
     {
-        foreach(Sound s in sounds)
+        foreach (Sound s in sounds)
         {
             s.source.Stop();
         }
