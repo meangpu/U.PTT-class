@@ -39,6 +39,7 @@ public class AudioManager : MonoBehaviour
 
     public void Play(string name)
     {
+        Debug.Log($"play {name}");
         Sound s = Array.Find(sounds, sound => sound.audioName == name);
         if (s == null || s.source == null)
         {
@@ -78,6 +79,7 @@ public class AudioManager : MonoBehaviour
 
     public void stopAll()
     {
+        Debug.Log($"stop");
         foreach (Sound s in sounds)
         {
             s.source.Stop();

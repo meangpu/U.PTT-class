@@ -54,7 +54,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - audioName: mangon
     clip: {fileID: 8300000, guid: b09d94a8140df0e4e986f8918546b8c8, type: 3}
-    mixerGroup: {fileID: 0}
+    mixerGroup: {fileID: 24300002, guid: 86e223cb202e7de4ea6f37fbd34b4af7, type: 2}
     volumn: 1
     pitch: 1
     blend: 0
