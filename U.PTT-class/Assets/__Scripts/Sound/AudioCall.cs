@@ -13,10 +13,8 @@ public class AudioCall : MonoBehaviour
 
     void StopAndPlay()
     {
-        _aud = FindObjectOfType<AudioManager>();
-        Debug.Log($"{_aud}");
-        _aud.stopAll();
-        _aud.Play(_startPlayName);
+        AudioManager.instance.stopAll();
+        AudioManager.instance.Play(_startPlayName);
     }
 
 
