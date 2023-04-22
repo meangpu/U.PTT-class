@@ -817,7 +817,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037658527}
-  m_LocalRotation: {x: 0.009624828, y: 0.97631, z: -0.2115492, w: 0.044419058}
+  m_LocalRotation: {x: 0.009624542, y: 0.9763101, z: -0.2115492, w: 0.04441774}
   m_LocalPosition: {x: -0.29228696, y: 2.2403429, z: 3.055026}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1256,7 +1256,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1740432436}
-  m_LocalRotation: {x: 0.108950846, y: -0.08157449, z: 0.026780913, w: 0.99033237}
+  m_LocalRotation: {x: 0.108950846, y: -0.08157322, z: 0.026780494, w: 0.9903325}
   m_LocalPosition: {x: 0.6791082, y: 0.49771878, z: -1.3469744}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1447,5 +1447,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8696067202520272346, guid: 61ff0c8871d63724785b3e5f1062506f, type: 3}
+      propertyPath: sounds.Array.data[0].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8696067202520272346, guid: 61ff0c8871d63724785b3e5f1062506f, type: 3}
+      propertyPath: sounds.Array.data[1].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8696067202520272346, guid: 61ff0c8871d63724785b3e5f1062506f, type: 3}
+      propertyPath: sounds.Array.data[2].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8696067202520272346, guid: 61ff0c8871d63724785b3e5f1062506f, type: 3}
+      propertyPath: sounds.Array.data[1].mixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 86e223cb202e7de4ea6f37fbd34b4af7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61ff0c8871d63724785b3e5f1062506f, type: 3}
