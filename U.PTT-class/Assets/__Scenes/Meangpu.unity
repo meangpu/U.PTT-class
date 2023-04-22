@@ -522,8 +522,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 671258752}
-  m_LocalRotation: {x: 0.57741773, y: 0.12290906, z: 0.7762501, w: -0.22117402}
-  m_LocalPosition: {x: -0.0012289286, y: 1.4680209, z: 1.3028812}
+  m_LocalRotation: {x: 0.7269862, y: -0.1845481, z: 0.6597448, w: 0.04658174}
+  m_LocalPosition: {x: -1.422597, y: 1.4680219, z: 2.5508175}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -735,8 +735,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 819349371}
-  m_LocalRotation: {x: -0.1299006, y: 0.85423285, z: -0.25601056, w: -0.43344054}
-  m_LocalPosition: {x: 1.8135617, y: 2.2580209, z: 1.3394169}
+  m_LocalRotation: {x: -0.020980963, y: 0.93686175, z: -0.34437189, w: -0.057078596}
+  m_LocalPosition: {x: 0.20605636, y: 2.2580218, z: 1.7493881}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 811012851}
@@ -835,8 +835,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037253503}
-  m_LocalRotation: {x: -0.1299006, y: 0.85423285, z: -0.25601056, w: -0.43344054}
-  m_LocalPosition: {x: 1.8135617, y: 2.2580209, z: 1.3394169}
+  m_LocalRotation: {x: -0.020980963, y: 0.93686175, z: -0.34437189, w: -0.057078596}
+  m_LocalPosition: {x: 0.20605636, y: 2.2580218, z: 1.7493881}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1761135543}
@@ -893,13 +893,13 @@ MonoBehaviour:
     width: 0.2
   m_Looped: 1
   m_Waypoints:
-  - position: {x: -0.0012289286, y: 4.1280704, z: -18.548573}
+  - position: {x: -1.422597, y: 3.86943, z: -19.769413}
     roll: 0
-  - position: {x: 2.7865543, y: 2.0142741, z: -21.22084}
+  - position: {x: 0.50960255, y: 5.957163, z: -19.276186}
     roll: 0
-  - position: {x: 2.1758018, y: 4.93971, z: -22.308117}
+  - position: {x: 1.054576, y: 4.6838813, z: -19.066069}
     roll: 0
-  - position: {x: -2.5468268, y: 5.1107583, z: -19.94687}
+  - position: {x: -1.7605412, y: 5.2242284, z: -19.411264}
     roll: 0
 --- !u!1 &1251206104
 GameObject:
