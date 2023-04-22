@@ -2,17 +2,15 @@ using UnityEngine;
 
 public class AudioCall : MonoBehaviour
 {
-    // ใช้กะพวกปุ่มที่เชื่อม audio manage ตรงจาก scene ไม่ได้ 
-    // ในกรณีที่ scene เปลี่ยนมาจาก mainmenu แล้ว audio manager reset
     AudioManager _aud;
+    string _startPlayName;
 
-    private void Start() 
+
+    private void Start()
     {
         _aud = FindObjectOfType<AudioManager>();
+        _aud.stopAll();
+        _aud.Play(_startPlayName);
     }
 
-    public void playSound(string _name)
-    {
-        _aud.Play(_name);
-    }
 }
